@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline%7CSquada+One');
+
+Form{
+    margin-left:30%;
+    margin-right:30%;
+
+}
+@media (max-width:500px) {
+    Form {
+      margin-left:10%;
+      margin-right:10%;
+    }
+}
+Button{
+    margin-right:10px;
+    margin-bottom:20px;
+    margin-top:10px;
+    font-family: 'Bungee Inline'
+}
+
+Input{
+    text-align:center;
+}
+
+h1{
+    font-family: 'Bungee Inline','cursive';
+    margin-left:40px;
+}
+@media (max-width:500px) {
+    h1 {
+      margin-left:0;
+    }
+}
+
+p,h2,h4,Label{
+    font-family: 'Bungee Inline'
+}
+Label{
+    font-family: 'Bungee Inline'
+}
+
+.navigation-wrapper{
+    display:flex;
+    justify-content:space-between;
+}
+@media (max-width:500px) {
+    .navigation-wrapper {
+      flex-direction:column
+    }
+}
+.trips-wrapper{
+    border:1px solid black;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom:20px;
+    width:20%;
+    margin-left:40%;
+}
+@media (max-width:500px) {
+    .trips-wrapper {
+      width:50%;
+      margin-left:25%;
+    }
+}
